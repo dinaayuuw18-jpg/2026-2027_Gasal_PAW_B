@@ -1,6 +1,6 @@
 <?php 
 //ini non-embeded script
-echo "Hello Word"; ?>
+echo "Hello Word <br>"; ?>
 
 <!DOCTYPE html>
 <html>
