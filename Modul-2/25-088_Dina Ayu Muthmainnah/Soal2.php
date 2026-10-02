@@ -1,7 +1,7 @@
-<<?php 
+<?php 
 $matkul=["PTI","ALPRO","DPW","STRUKDAT","JARKOM","PAW","PSBF","RPL"];
 foreach ($matkul as $key => $value) {
-	switch ($matkul) {
+	switch ($value) {
 		case 'PTI':
 			echo "SayasukaPTI<br>";
 			break;
@@ -21,7 +21,7 @@ foreach ($matkul as $key => $value) {
 			echo "SayasukaPAW<br>";
 			break;
 		default:
-			echo "Saya tidak mengambil matkul".$namamatkul."<br>";
+			echo "Saya tidak mengambil matkul".$value."<br>";
 			break;
 	}
  } ?>
